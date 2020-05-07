@@ -436,3 +436,21 @@ p{
 th, td {
   padding: 15px;
 }
+
+.samithi-infrastructure{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:25vh auto 5vh auto;
+  color:var(--main-white);
+  background-color:rgba(133,72,118,0.8);
+  width:80%;
+}
+
+.samithi-infrastructure h2{
+  font-size:2.5rem;
+  width:60%;
+  text-align:center;
+  text-shadow:0 0 5px #000
+ }
