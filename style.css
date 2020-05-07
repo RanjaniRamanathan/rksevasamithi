@@ -151,16 +151,20 @@ body{
   position:relative;
   margin-bottom:2vh;
 }
-      
-.announcements{
-  background-color:var(--main-choc);
+
+.new-section{
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  height:80vh;
   width:100%;
   padding-bottom:3vh;
+}
+      
+#announcements{
+  background-color:var(--main-choc);
+  height:80vh;
+  
 }
       
 h2{
@@ -464,4 +468,29 @@ th, td {
   color:var(--main-white);
   background-color:rgba(45,74,83,0.8);
   width:80%;
+ }
+
+ .about h2{
+  font-size:2.5rem;
+  width:60%;
+  text-align:center;
+  text-shadow:0 0 5px #000
+ }
+
+ .activities-content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:25vh auto 5vh auto;
+  color:var(--main-white);
+  background-color:rgba(45,74,83,0.8);
+  width:80%;
+ }
+
+ .activities-content h2{
+  font-size:2.5rem;
+  width:60%;
+  text-align:center;
+  text-shadow:0 0 5px #000
  }
