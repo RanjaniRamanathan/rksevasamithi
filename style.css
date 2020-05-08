@@ -313,10 +313,10 @@ p{
   display:flex;
   flex-direction:column;
   justify-content:center;
-  color:var(--main-white);
+  
 }
       
-.contact p{
+#contact p{
   font-weight:800;
   color:var(--main-white);
   text-align:left;
@@ -362,21 +362,25 @@ p{
   justify-content:center;
   align-items:center;
   margin:25vh auto 5vh auto;
-  color:var(--main-white);
   width:80%;
   text-align:justify;
   font-size:1.5rem;
 }
 
-#appeal{
-  background-color:rgba(96,169,151,0.8);
+.page-content p{
+  color:var(--main-white);
 }
 
 .page-content h2{
   width:60%;
   text-align:center;
   text-shadow:0 0 5px #000;
- }
+  font-size:2.5rem;
+}
+
+#appeal{
+  background-color:rgba(96,169,151,0.8);
+}
 
 #donate-table, th, td {
   border: 1px solid var(--main-white);
