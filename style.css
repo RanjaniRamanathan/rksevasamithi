@@ -363,12 +363,12 @@ p{
   align-items:center;
   margin:25vh auto 5vh auto;
   width:80%;
-  text-align:justify;
   font-size:1.5rem;
 }
 
 .page-content p{
   color:var(--main-white);
+  text-align:justify;
 }
 
 .page-content h2{
@@ -376,10 +376,12 @@ p{
   text-align:center;
   text-shadow:0 0 5px #000;
   font-size:2.5rem;
+  border: none;
 }
 
 #appeal{
   background-color:rgba(96,169,151,0.8);
+  padding-bottom: 2vh;
 }
 
 #donate-table, th, td {
