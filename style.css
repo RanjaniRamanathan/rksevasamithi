@@ -364,6 +364,7 @@ p{
   margin:25vh auto 5vh auto;
   width:80%;
   font-size:1.5rem;
+  padding: 2vh;
 }
 
 .page-content p{
@@ -397,56 +398,22 @@ th, td {
   padding: 15px;
 }
 
-.samithi-infrastructure{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  margin:25vh auto 5vh auto;
-  color:var(--main-white);
+#infrastructure{
   background-color:rgba(133,72,118,0.8);
-  width:80%;
+  padding-bottom: 2vh;
 }
 
-.samithi-infrastructure h2{
-  font-size:2.5rem;
-  width:60%;
-  text-align:center;
-  text-shadow:0 0 5px #000
- }
+#coronarelief{
+  background-color:rgba(45,83,54,0.8);
+  padding-bottom: 2vh;
+}
 
- .about{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  margin:25vh auto 5vh auto;
-  color:var(--main-white);
-  background-color:rgba(45,74,83,0.8);
-  width:80%;
- }
+#drinkingwater{
+  background-color:rgba(165,159,185,0.8);
+  padding-bottom: 2vh;
+}
 
- .about h2{
-  font-size:2.5rem;
-  width:60%;
-  text-align:center;
-  text-shadow:0 0 5px #000
- }
-
- .activities-content{
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  margin:25vh auto 5vh auto;
-  color:var(--main-white);
-  background-color:rgba(45,74,83,0.8);
-  width:80%;
- }
-
- .activities-content h2{
-  font-size:2.5rem;
-  width:60%;
-  text-align:center;
-  text-shadow:0 0 5px #000
- }
+#volunteer{
+  background-color:rgba(169,169,175,0.8);
+  padding-bottom: 2vh;
+}
