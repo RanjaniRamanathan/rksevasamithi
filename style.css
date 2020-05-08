@@ -364,6 +364,8 @@ p{
   margin:25vh auto 5vh auto;
   color:var(--main-white);
   width:80%;
+  text-align:justify;
+  font-size:1.5rem;
 }
 
 #appeal{
@@ -375,12 +377,6 @@ p{
   text-align:center;
   text-shadow:0 0 5px #000;
  }
-  
-.page-text{
-  text-align:justify;
-  width:80%;
-  font-size:1.5rem;
-}
 
 #donate-table, th, td {
   border: 1px solid var(--main-white);
