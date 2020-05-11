@@ -239,8 +239,8 @@ p{
 }
             
 #gallery a{
-    color:var(--main-white);
-    padding:10px 0;
+  color:var(--main-white);
+   padding:10px 0;
 }
       
 #gallery p{
@@ -283,7 +283,8 @@ p{
 }
       
 .view_quotes:hover{
-  background-color:rgba(255,159,50,0.4);
+  background-color:rgba(255,159,50,0.2);
+  color:var(--main-white);
 }
       
 .quote-tile{
@@ -360,16 +361,18 @@ p{
   display:flex;
   flex-direction:column;
   justify-content:center;
-  align-items:center;
   margin:25vh auto 5vh auto;
   width:80%;
-  font-size:1.5rem;
   padding: 2vh;
 }
 
 .page-content p{
   color:var(--main-white);
   text-align:justify;
+  text-shadow:none;
+  font-size:1rem;
+  font-style:normal;
+  font-weight:normal;
 }
 
 .page-content h2{
@@ -378,8 +381,18 @@ p{
   text-shadow:0 0 5px #000;
   font-size:2.5rem;
   border: none;
+  margin: 0 auto;
 }
 
+.page-content li{
+  text-align:start;
+  color:var(--main-white);
+  }
+      
+.yellow-text{
+  color:var(--main-yellow);
+}
+      
 #appeal{
   background-color:rgba(96,169,151,0.8);
   padding-bottom: 2vh;
@@ -399,7 +412,7 @@ th, td {
 }
 
 #infrastructure{
-  background-color:rgba(133,72,118,0.8);
+  background-color:var(--main-choc);
   padding-bottom: 2vh;
 }
 
