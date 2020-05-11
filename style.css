@@ -291,12 +291,14 @@ p{
   display:flex;
   justify-content:space-around;
   align-items:center;
+  flex-wrap: wrap;
 }
       
 .quote-tile img{
   padding:0 5vw;
   height:100%;
   width:50%;
+  margin: 10px auto;
 }
       
 #contact{
@@ -362,7 +364,7 @@ p{
   flex-direction:column;
   justify-content:center;
   margin:25vh auto 5vh auto;
-  width:80%;
+  width:90%;
   padding: 2vh;
 }
 
