@@ -274,7 +274,7 @@ p{
 }
       
 .view_quotes{
-  color:var(--main-white);
+  color:var(--main-brown);
   margin: 10vh auto;
   font-size:26px;
   text-transform:uppercase;
@@ -391,6 +391,13 @@ p{
   margin: 0 auto;
 }
 
+.page-content h3{
+  color:var(--main-brown);
+  font-size:1.5rem;
+  line-height:2rem;
+  border-bottom: darkgoldenrod;
+}
+
 .page-content li{
   text-align:start;
   color:var(--main-brown);
@@ -401,7 +408,7 @@ p{
 }
       
 #appeal{
-  background-color:rgba(96,169,151,0.8);
+  background-color: darkmagenta;
   padding-bottom: 2vh;
 }
 
@@ -419,12 +426,12 @@ th, td {
 }
 
 #infrastructure{
-  background-color:#c5eca7;
+  background-color: darksalmon;
   padding-bottom: 2vh;
 }
       
 #activities-content{
-  background-color:#c5eca7;
+  background-color: aliceblue;
   padding-bottom: 2vh;
 }
 
