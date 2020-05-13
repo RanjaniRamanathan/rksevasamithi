@@ -372,19 +372,18 @@ p{
 }
 
 .page-content p{
-  
   text-align:justify;
   text-shadow:none;
   font-size:1rem;
   font-style:normal;
   font-weight:normal;
+  color:var(--main-brown);
 }
 
 .page-content h2{
   color:var(--main-brown);
   width:60%;
   text-align:center;
-/*  text-shadow:0 0 5px white;*/
   font-size:2rem;
   line-height:2.5rem;
   border: none;
@@ -408,17 +407,18 @@ p{
 }
       
 #appeal{
-  background-color: teal;
+  background-color: thistle;
   padding-bottom: 2vh;
 }
 
 #donate-table, th, td {
   border: 1px solid var(--main-white);
   border-collapse: collapse;
+  color:var(--main-brown);
 }
 
 #donate-table{
-  width:80%;
+  width:95%;
 }
 
 th, td {
