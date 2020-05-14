@@ -412,13 +412,14 @@ p{
 }
 
 #donate-table, th, td {
-  border: 1px solid var(--main-white);
+  border: 1px solid var(--main-brown);
   border-collapse: collapse;
   color:var(--main-brown);
 }
 
 #donate-table{
   width:95%;
+  margin:2vh auto;
 }
 
 th, td {
@@ -431,21 +432,15 @@ th, td {
 }
       
 #activities-content{
-  background-color: aliceblue;
-  padding-bottom: 2vh;
-}
-
-#coronarelief{
-  background-color:rgba(45,83,54,0.8);
-  padding-bottom: 2vh;
-}
-
-#drinkingwater{
-  background-color:rgba(165,159,185,0.8);
+  background-color: violet;
   padding-bottom: 2vh;
 }
 
 #volunteer{
   background-color:rgba(169,169,175,0.8);
   padding-bottom: 2vh;
+}
+
+.about-content{
+  display:flex;
 }
