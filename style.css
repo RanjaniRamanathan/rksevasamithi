@@ -315,7 +315,7 @@ p{
 .contact_text{
   display:flex;
   flex-direction:column;
-  justify-content:center;
+  justify-content:space-evenly;
   
 }
       
@@ -455,6 +455,10 @@ th, td {
 }
 
 #contactus{
-  background-color: blanchedalmond;
+  background-color: floralwhite;
   padding-bottom: 2vh;
+}
+
+#map{
+  border: 2px solid var(--main-brown);
 }
