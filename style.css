@@ -441,7 +441,7 @@ th, td {
   padding-bottom: 2vh;
 }
 
-#about h2,h3, p{
+#about > h2,h3, p{
   color: antiquewhite;
 }
 
