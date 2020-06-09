@@ -274,7 +274,7 @@ p{
 }
       
 .view_quotes{
-  color:var(--main-brown);
+  color:var(--main-white);
   margin: 10vh auto;
   font-size:26px;
   text-transform:uppercase;
@@ -407,7 +407,7 @@ p{
 }
       
 #appeal{
-  background-color: thistle;
+  background-color: aliceblue;
   padding-bottom: 2vh;
 }
 
@@ -427,7 +427,7 @@ th, td {
 }
 
 #infrastructure{
-  background-color: darksalmon;
+  background-color: bisque;
   padding-bottom: 2vh;
 }
       
@@ -459,7 +459,7 @@ th, td {
 }
 
 #volunteer{
-  background-color: aliceblue;
+  background-color: blanchedalmond;
   padding-bottom: 2vh;
 }
 
