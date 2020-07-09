@@ -296,7 +296,6 @@
   .updates-container{
     width:30%;
     flex-wrap: wrap;
-    border: 1px solid red;
     margin-bottom: 1em;
   }
   
