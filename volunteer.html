@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html>
   <head>
     <script src="https://kit.fontawesome.com/f6ed09b881.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href=".\style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramakrishna Seva Samithi</title>
   </head>
   
@@ -9,72 +11,76 @@
     <section  class="header">
       <div class="inner_header">
         <div class="logo_container">
-          <a href="index.html">
+          <a href=".\index.html">
             <img src="http://rksevasamithihnr.org/img/logo-web.png" alt="logo">
           </a>
         </div>
         <div class="header_text">
           <h1>Sri Ramakrishna Seva Samithi</h1>
-          <h3>Huzurnagar</h3>
+          <p class="subtitle">Huzurnagar</p>
         </div>
       </div>
+        
+      <label for="toggle">&#9776;</label>
+      
+          
     </section>
   
     <nav class="navbar">
-      <div class="inner_navbar">
+      <input type="checkbox" id="toggle">
+      <div class="menu">
         <ul>
-          <li><a href="index.html" class="menu-item">Home</a></li>
-          <li><a href="#" class="menu-item">About Us</a>
-              <div class="dropdown-content">
-                <a href="about.html" class="dropdown-item">Our inspiration</a>
-                <a href="about.html#history" class="dropdown-item">History of the Seva Samithi</a>
-                <a href="about.html#volunteers" class="dropdown-item">Our volunteers</a>
-              </div>
-            </li>
-          <li><a href="infrastructure.html" class="menu-item">Campus</a></li>
-          <li><a href="activities.html" class="menu-item">Activites</a>
+          <li><a href=".\index-new.html" class="menu-item">Home</a></li>
+          <li><a href=".\about.html" class="menu-item">About Us</a>
             <div class="dropdown-content">
-              <a href="activities.html#medical" class="dropdown-item">Medical</a>
-              <a href="activities.html#educational" class="dropdown-item">Educational</a>
-              <a href="activities.html#relief" class="dropdown-item">Relief works</a>
-              <a href="activities.html#rural" class="dropdown-item">Rural Development</a>
-              <a href="activities.html#cultural" class="dropdown-item">Cultural</a>
+              <a href=".\about.html" class="dropdown-item">Our inspiration</a>
+              <a href=".\about.html#history" class="dropdown-item">History of the Seva Samithi</a>
+              <a href=".\about.html#volunteers" class="dropdown-item">Our volunteers</a>
             </div>
           </li>
-          <li><a href="#" class="menu-item">Media</a>
+          <li><a href=".\infrastructure.html" class="menu-item">Campus</a></li>
+          <li><a href=".\activities.html" class="menu-item">Activites</a>
             <div class="dropdown-content">
-              <a href="activities-photos-link.html" class="dropdown-item">Photos</a>
+              <a href=".\activities.html#medical" class="dropdown-item">Medical</a>
+              <a href=".\activities.html#educational" class="dropdown-item">Educational</a>
+              <a href=".\activities.html#relief" class="dropdown-item">Relief works</a>
+              <a href=".\activities.html#rural" class="dropdown-item">Rural Development</a>
+              <a href=".\activities.html#cultural" class="dropdown-item">Cultural</a>
+            </div>
+          </li>
+          <li><a href=".\activities-photos-link.html" class="menu-item">Media</a>
+            <div class="dropdown-content">
+              <a href=".\activities-photos-link.html" class="dropdown-item">Photos</a>
               <a href="https://www.youtube.com/channel/UCGTY3RcDT4eKHOB586YcXvw?view_as=subscriber" class="dropdown-item" target="_blank">Videos</a>
             </div>
           </li>
-          <li><a href="donationappeal.html" class="menu-item">Donate</a></li>
-          <li><a href="volunteer.html" class="menu-item">Get Involved</a></li>
-          <li><a href="contact.html" class="menu-item">Contact Us</a></li>
+          <li><a href=".\donationappeal.html" class="menu-item">Donate</a></li>
+          <li><a href=".\volunteer.html" class="menu-item">Get Involved</a></li>
+          <li><a href=".\contact.html" class="menu-item">Contact Us</a></li>
         </ul>
       </div>
-    </nav>
-    
-    <section id="volunteer" class="page-content">
-      <h2> Volunteer </h2>
-      <div class="page-text">
-        <p>The joy in serving others without any selfish motive is infinitely greater than catering to only one’s own desires and needs because the latter can be and is done even by animals. It is a joy to be tasted personally. We invite every one to cultivate this habit of Service.</p>
+  </nav>
+
+  <div class="container page-content flex-box">
+    <h2 class="page-title"> Volunteer </h2>
+    <div class="full-para">
+      <p>The joy in serving others without any selfish motive is infinitely greater than catering to only one’s own desires and needs because the latter can be and is done even by animals. It is a joy to be tasted personally. We invite every one to cultivate this habit of Service.</p>
         <p>The Samithi offers ample opportunity for people with an earnest desire for serving the poor and the needy. Such selfless service helps to attain great heights in both material and spiritual life. Voluntary service can be rendered in any of the multi-functional areas of one’s expertise. It could be work from home, within the Samithi precincts, or even outside the Samithi premises.</p>
         <p>We require volunteers in the following departments:</p>
-        <ol>
+        <ul>
           <li>Teaching students at the samithi</li>
           <li>Volunteeing at Medical camps</li>
-          <li></li>
-        </ol>
+        </ul>
         <p>You can contact our Office to offer your time and service.</p>
+    </div>
+
+    <section id = "footer" class="footer page-footer">
+      <div class="picture-block ">
+        <i class="far fa-copyright white"></i>
+        <p class="picture-block-item-text brown-text">2020 Sri Ramakrishna Seva Samithi, Huzurnagar</p>
       </div>
+      <p class="picture-block-item-text brown-text">Designed by<a href="https://codepen.io/ranjani-pinnelli" target="_blank" class="brown-text"> Ranjani Ramanathan</a></p>
     </section>
 
-    <section  class="footer" id="footer">
-      <div class="copyright">
-        <i class="far fa-copyright"></i>
-        <p>2020 Sri Ramakrishna Seva Samithi, Husurnagar</p>
-      </div>
-        <p>Designed by<a href="#" target="_blank"> Ranjani Pinnelli</a></p>
-    </section>
   </body>
 </html>
